@@ -1,0 +1,280 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.container .col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    height: 0;
+    width: 150%;
+    background-color: #5a00a3;
+    z-index: -1;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.container .card {
+    width: 280px;
+    height: 320px;
+    overflow: hidden;
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    box-shadow: 5px 5px 10px #1f1f1fa8,
+                -5px -5px 10px #1f1f1fa8;
+}
+
+.container .card:hover::before {
+    height: 150px;
+}
+
+.container .card .img-container {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.container .card:hover .img-container {
+    border: 10px solid #5a00a3;
+}
+
+.container .card .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.container .card:hover .img-container img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.8);
+}
+
+.container .card .h3 {
+    margin-bottom: 5px !important;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.container .card .designation {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    pointer-events: none;
+}
+
+.container .card ul {
+    background-color: #5a00a3;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(100px);
+}
+
+.container .card:hover ul {
+    transform: translateY(40px);
+}
+
+.container .card ul li {
+    padding: 5px 8px;
+    transition: all 0.4s;
+}
+
+.container .card ul li a {
+    color: #FFF;
+}
+
+.container .card ul li:hover {
+    background: #fff;
+}
+
+.container .card ul li:hover a {
+    color: #5a00a3;
+}
+
+.col-md-4 {
+  padding: 50px 0;
+}
+
+h1 {
+  font-family: Fantasy;
+  font-size: 68px;
+}
+
+
+#first {
+  color: white;
+  padding: 480px 0px;
+}
+
+#sec {
+padding: 580px 0px;
+color: antiquewhite;
+}
+
+#sec-button {
+width: 200px;
+height: 60px;
+border-radius: 30px;
+background-color: rgb(63, 0, 145);
+color: white;
+border: transparent solid 1px;
+transition: 0.4s;
+}
+
+#sec-button:hover {
+transition: 0.4s;
+border-radius: 30px;
+background-color: rgb(81, 4, 182);
+color: white;
+border: transparent solid 1px;
+}
+
+#first-content {
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+
+
+#secound-content {
+  padding: 480px 0px;
+  background-color: black;
+}
+
+.secc {
+  padding-top: 0;
+  padding-bottom: 400px;
+  transition: 0.4s;
+}
+
+.secc:hover {
+  transform: scale(1.05);
+}
+
+.reveal {
+  
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+a.third-button {
+  color: white;
+  transition: 0.4s;
+}
+
+a:hover.third-button {
+  color: aliceblue;
+  transform: scale(1.1);
+}
+
+@keyframes shine {
+  0% {
+      background-position-x: -500%;
+  }
+
+  100% {
+      background-position-x: 500%;
+  }
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        rgb(128, 1, 89) 0%, 
+        rgb(97, 1, 73) 25%, 
+        rgb(72, 2, 104) 51%, 
+        rgb(43, 0, 99) 100%
+  );  
+  animation: AnimateBG 12s ease infinite;
+}
+
+  
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+.bg2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -135deg, 
+        rgb(128, 1, 89) 0%, 
+        rgb(97, 1, 73) 25%, 
+        rgb(72, 2, 104) 51%, 
+        rgb(43, 0, 99) 100%
+  );  
+  animation: AnimateBG 12s ease infinite;
+}
+
+.bg3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        180deg, 
+        rgb(128, 1, 89) 0%, 
+        rgb(97, 1, 73) 25%, 
+        rgb(72, 2, 104) 51%, 
+        rgb(43, 0, 99) 100%
+  );  
+}
+#fourth {
+  padding: 480px 0;
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
