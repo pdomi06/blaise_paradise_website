@@ -125,11 +125,11 @@ h1 {
 
 #first {
   color: white;
-  padding: 480px 0px;
+  padding: 80px 0px;
 }
 
 #sec {
-padding: 580px 0px;
+padding: 380px 0px;
 color: antiquewhite;
 }
 
@@ -184,19 +184,23 @@ color: antiquewhite;
 
 
 #secound-content {
-  padding: 480px 0px;
+  padding: 280px 0px;
   background-color: black;
 }
 
 .secc {
   padding-top: 0;
-  padding-bottom: 400px;
+  padding-bottom: 200px;
   transition: 0.4s;
 }
 
 .secc:hover {
   transform: scale(1.05);
 
+}
+
+.card-img {
+  opacity: 0.7;
 }
 
 
@@ -294,3 +298,7 @@ a:hover.third-button {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+hr {
+  color: white
+}
