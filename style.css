@@ -299,6 +299,11 @@ a:hover.third-button {
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-hr {
-  color: white
+.dark {
+  transition: 2.4;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+#navbar {
+  transition: 2.4;
 }

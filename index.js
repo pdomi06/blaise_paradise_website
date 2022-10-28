@@ -15,3 +15,17 @@ function reveal() {
         }
     }
 }
+
+function changeBg() {
+    var navbar = document.getElementById('navbar');
+    var scrollValue = window.scrollY;
+
+    if(scrollValue < 550){
+        navbar.classList.remove('dark');
+    } else {
+        navbar.classList.add('dark');
+    }
+ }
+
+ window.addEventListener('scroll', changeBg)
+
