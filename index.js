@@ -20,7 +20,7 @@ function changeBg() {
     var navbar = document.getElementById('navbar');
     var scrollValue = window.scrollY;
 
-    if(scrollValue < 550){
+    if(scrollValue < 150){
         navbar.classList.remove('dark');
     } else {
         navbar.classList.add('dark');
