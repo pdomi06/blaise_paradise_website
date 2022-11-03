@@ -15,45 +15,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="../img/logos/logo.svg">
     <script src="../index.js"></script>
-    <style>
-        .date {
-            color: gray;
-        }
-
-        .card {
-            margin: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav id="navbar" class="navbar navbar-default navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="../img/logos/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                Blaise paradise
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logos/logo.svg" alt="Unavaible" width="30" height="24">Blaise Paradise</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="../other/buy.html">Rendelés</a>
+                        <a class="nav-link" aria-current="page" href="../index.html#fiv">Csapattagok</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../other/files.html">Munkáink</a>
+                        <a class="nav-link" aria-current="page" href="../other/files.html">Munkáink</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#fiv">Csapattagok</a>
+                        <a class="nav-link" aria-current="page" href="../other/buy.html">Rendelés</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <section>
-        <div class="card-group group1">
+        <div class="card-group group1 files">
             <div class="card text-white bg-primary mb-3 m-auto" style="max-width: 18rem;">
                 <div class="card-header html css js">Classes: Html, css, js</div>
                 <div class="card-body">
