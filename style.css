@@ -1,4 +1,4 @@
-
+/* index.html*/
 
 * {
     margin: 0;
@@ -306,4 +306,56 @@ a:hover.third-button {
 
 #navbar {
   transition: 2.4;
+}
+
+/* buy.html*/
+
+.selection {
+  height: 600px;
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+  transition: 0.4s;
+}
+
+.gap {
+  width: 100%;
+  height: 100px;
+}
+
+#python {
+  background-image: url(../img/python-logo-4k-i6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#java {
+  background-image: url(../img/node_js.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.selection:hover, .selection:focus {
+  -webkit-filter: brightness(280%);
+  filter: brightness(280%);
+  transition: 0.4s;
+}
+.optione {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: xx-large;
+}
+.navv:hover{
+  color: aqua;
+}
+.dropdown-item:hover{
+  background-color: gray;
+}
+/* files.html*/
+
+.files.date {
+    color: gray;
+}
+
+.files.card {
+    margin: 10px;
 }
