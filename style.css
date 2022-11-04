@@ -359,3 +359,7 @@ a:hover.third-button {
 .files.card {
     margin: 10px;
 }
+
+#list {
+  list-style-type: none;
+}
