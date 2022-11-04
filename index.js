@@ -47,4 +47,3 @@ function search_animal() {
 }
 
 
-
