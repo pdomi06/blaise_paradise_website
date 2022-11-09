@@ -30,7 +30,7 @@ function changeBg() {
  window.addEventListener('scroll', changeBg)
 
 
-function search_animal() {
+function searchBar() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
     let x = document.getElementsByClassName('item');
@@ -49,8 +49,5 @@ function search_animal() {
 
 function torles() {
     document.getElementById('searchbar').value = "";
-
-    search_animal();
+    searchBar();
 }
-
-
