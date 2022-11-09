@@ -29,7 +29,7 @@ function changeBg() {
 
  window.addEventListener('scroll', changeBg)
 
- // JavaScript code
+
 function search_animal() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
@@ -44,6 +44,13 @@ function search_animal() {
             x[i].style.display=list;                 
         }
     }
+}
+
+
+function torles() {
+    document.getElementById('searchbar').value = "";
+
+    search_animal();
 }
 
 
