@@ -308,6 +308,13 @@ a:hover.third-button {
   transition: 2.4;
 }
 
+footer {
+  background-color: rgb(43, 0, 99);
+  color: rgb(107, 107, 107);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+
 /* buy.html*/
 
 .selection {
