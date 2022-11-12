@@ -310,11 +310,28 @@ a:hover.third-button {
 
 footer {
   background-color: rgb(43, 0, 99);
-  color: rgb(107, 107, 107);
+  color: rgb(204, 204, 204);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 50px 0;
+
  
 }
 
+#social {
+  padding: 20px 0;
+}
+
+.social {
+  color: white;
+}
+
+i {
+  padding: 0 20px;
+}
+
+input {
+  background-color: transparent;
+}
 /* buy.html*/
 
 .selection {
@@ -357,6 +374,8 @@ footer {
 .dropdown-item:hover{
   background-color: gray;
 }
+
+
 /* files.html*/
 
 .files.date {
